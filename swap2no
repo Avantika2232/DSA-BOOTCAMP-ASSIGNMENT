@@ -1,0 +1,16 @@
+//Q1. Write a program to Swap to two numbers.
+
+#include<iostream>
+using namespace std;
+main()
+{
+	int a,b,t;
+	cout<<"Enter two numbers:";
+	cin>>a>>b;
+    cout<<"Before swapping: a="<<a<<" and b="<<b<<endl;
+	t=a;
+    a=b;
+    b=t;
+    cout<<"After swapping: a="<<a<<" and b="<<b<<endl;
+	return 0;
+}
